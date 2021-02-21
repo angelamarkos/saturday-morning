@@ -1,0 +1,12 @@
+INFO:root:Result is 8!
+2021-01-23 12:11:42,827 -- INFO -- root -- Result is 8!.
+2021-01-23 12:11:45,551 -- INFO -- root -- Result is 8!.
+2021-01-23 12:16:12,560 -- ERROR -- root -- Result is 0.5!.
+2021-01-23 12:16:25,264 -- ERROR -- root -- Error: division by zero!.
+2021-01-23 12:16:39,122 -- ERROR -- root -- Error: division by zero!.
+2021-01-23 12:22:51,880 -- ERROR -- __main__ -- Error: division by zero!.
+2021-01-23 12:30:36,118 -- ERROR -- test1 -- DivisionError.
+Traceback (most recent call last):
+  File "/home/angela-markosyan/ACA/23_01_2021/logging_1.py", line 14, in my_func
+    value = a * b / c
+ZeroDivisionError: division by zero

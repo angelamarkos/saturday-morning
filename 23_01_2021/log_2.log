@@ -1,0 +1,6 @@
+2021-01-23 12:22:51,880 : ERROR : __main__ : Error: division by zero!.
+2021-01-23 12:30:36,118 : ERROR : test1 : DivisionError.
+Traceback (most recent call last):
+  File "/home/angela-markosyan/ACA/23_01_2021/logging_1.py", line 14, in my_func
+    value = a * b / c
+ZeroDivisionError: division by zero
